@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <style>
+    body {
+        font-family: 'Roboto Condensed';font-size: 22px;
+    }
+    </style>
+    <style>
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      li {
+        display: inline;
+      }
+      </style>  
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Work shop html</title>
-    <link
-      rel="icon"
-      href="https://www.ilboursa.com/handlers/image_news_get.ashx?id=8F671604-ED9C-41C4-9290-F79934070FF3"
+    <link rel="stylesheet" href="./test.css" />
+    rel="icon"
+    href="https://www.ilboursa.com/handlers/image_news_get.ashx?id=8F671604-ED9C-41C4-9290-F79934070FF3"
     />
   </head>
   <body>
@@ -44,7 +60,7 @@
     <!--page main-->
     <main>
       <section>
-        <h1>About us</h1>
+        <h1 id="a">About us</h1>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
           quaerat est ea, sequi odio quos necessitatibus explicabo repellat
@@ -52,46 +68,70 @@
           exercitationem repudiandae aliquid.
         </p>
         <iframe src="./gomycode.html" frameborder="0"></iframe>
-        <iframe src="https://www.youtube.com/embed/sMqAM6f9X_o" frameborder="0"></iframe>
-    <iframe src="./resource/my portfolio.png" frameborder="0"></iframe> 
+        <iframe
+          src="https://www.youtube.com/embed/sMqAM6f9X_o"
+          frameborder="0"
+        ></iframe>
+        <iframe src="./resource/my portfolio.png" frameborder="0"></iframe>
 
-    <!--vd balise-->
-    <video src="./resource/videoplayback.mp4" width="320"  controls></video>
-    </section>
-    <section>
-        <h2>
-            Work
-        </h2>
+        <!--vd balise-->
+        <video src="./resource/videoplayback.mp4" width="320" controls></video>
+      </section>
+      <section>
+        <h2 id="b">Work</h2>
         <table border="1">
-            <tr>
-                <th>Web 1</th>
-                <th>Web 2</th>
-                <th>Web 3</th>
-            </tr>
-            <tr>
-                <td>Html</td>
-                <td>react JS</td>
-                <td>Node JS</td>
-            </tr>
-            <tr>
-                <td>css</td>
-                <td>redux</td>
-                <td>express Js</td>
-            </tr>
-            <tr>
-                <td>JS</td>
-                <td>API</td>
-                <td>Mongo DB</td>
-            </tr>
-            <tr>
-                <td>frond end</td>
-                <td>frond end</td>
-                <td> back end</td>
-            </tr>
+          <tr>
+            <th>Web 1</th>
+            <th>Web 2</th>
+            <th>Web 3</th>
+          </tr>
+          <tr>
+            <td>Html</td>
+            <td>react JS</td>
+            <td>Node JS</td>
+          </tr>
+          <tr>
+            <td>css</td>
+            <td>redux</td>
+            <td>express Js</td>
+          </tr>
+          <tr>
+            <td>JS</td>
+            <td>API</td>
+            <td>Mongo DB</td>
+          </tr>
+          <tr>
+            <td>frond end</td>
+            <td>frond end</td>
+            <td>back end</td>
+          </tr>
         </table>
-    </section>
+      </section>
     </main>
     <!--page footer-->
-    <footer></footer>
+    <section>
+      <h1>Name :</h1>
+      <input name="text" />
+    </section>
+    <section>
+      <h1>email :</h1>
+      <input type="email" />
+      <section>
+        <h1>Number :</h1>
+      </section>
+      <input type="number" />
+    </section>
+    <section>
+      <h1>Pasword :</h1>
+      <input type="password" />
+      <button>Submit</button>
+    </section>
+    <footer>
+      <h1 id="d">contact</h1>
+      <p id="hello">phone number : +216 12345678</p>
+      <p>adress email : ramzigomycode@gmail.com</p>
+      <p>localisation : go my code gafsa</p>
+      <p>copyright gomycodegafsa-2023</p>
+    </footer>
   </body>
 </html>
